@@ -18,7 +18,7 @@ def callback_channel_points(uuid: UUID, data: dict) -> None:
 
     if qwerty_id == reward_receive :
         os.system("~/prog/stream/xkbswitch-macosx/xkbswitch-arm -s com.apple.keylayout.ABC")  
-        time.sleep(30)
+        time.sleep(60)
         os.system("~/prog/stream/xkbswitch-macosx/xkbswitch-arm -s com.apple.keylayout.Colemak")  
  
 
